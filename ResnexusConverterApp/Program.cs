@@ -8,10 +8,10 @@ namespace ResnexusConverterApp
         public MySqlConnection CreateConnection()
         {
             //Create the connection string
-            string server = "localhost";
-            string database = "resnexusdb";
-            string username = "root";
-            string password = "Fatpig123!";
+            string server = "";
+            string database = "";
+            string username = "";
+            string password = "";
             string connectionString = $"SERVER={server};DATABASE={database};UID={username};PASSWORD={password};";
 
             //create the connection
